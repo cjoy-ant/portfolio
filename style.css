@@ -40,7 +40,7 @@ div.bg-yellow {
 footer {
   color: white;
   text-align: center;
-  background-color: #6ba4a9;
+  background-color: #59959a;
   height: 30px;
   margin: auto;
   padding-top: 10px;
@@ -56,7 +56,7 @@ hr {
 header {
   height: 255px;
   text-align: center;
-  background-color: #6ba4a9;
+  background-color: #59959a; /* --- 6ba4a9 ---*/
 }
 
 .name {
