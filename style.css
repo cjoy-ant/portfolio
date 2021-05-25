@@ -1,0 +1,328 @@
+/* --- Google fonts --- */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* --- Structure --- */
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #5b5b5b;
+  background-image: url("./images/orange-flowers-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.bg-white {
+  background: rgba(255, 255, 255, 0.7);
+  color: black;
+  margin-right: 12%;
+  margin-left: 12%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+}
+
+div.bg-yellow {
+  color: #242424;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  margin-right: 12%;
+  margin-left: 12%;
+  margin-bottom: 25px;
+  background: rgba(235, 223, 161, 0.9);
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+  background-color: #6ba4a9;
+  height: 30px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+hr {
+  color: #5b5b5b;
+  background-color: #5b5b5b;
+  margin: 25px 80px 25px 80px;
+}
+
+/* --- Header ---*/
+header {
+  height: 255px;
+  text-align: center;
+  background-color: #6ba4a9;
+}
+
+.name {
+  color: #242424;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0px 65px 0px 65px;
+  padding: 40px 0px 15px 0px;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+/* ---Navigation --- */
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 0px 40px 0px 0px;
+}
+
+nav ul {
+  display: flex;
+  color: #242424;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+/* --- Elements --- */
+/* --- Profile Picture ---*/
+
+img.profile {
+  border-radius: 50%;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.about {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+img.projects {
+  width: 60%;
+  border-radius: 8px;
+}
+
+/* --- Projects --- */
+.project-header {
+  margin: auto;
+  text-align: center;
+}
+
+.project-header img {
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+/* --- Contact --- */
+.contact-modes {
+  text-align: center;
+}
+
+.contact-logo {
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+}
+
+/* --- Type --- */
+
+header,
+body,
+footer,
+form input,
+form textarea {
+  font-family: Montserrat;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  font-size: 14px;
+}
+
+section h2 {
+  text-transform: uppercase;
+}
+
+/* --- Links --- */
+a:link {
+  color: #242424;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+a:visited {
+  color: #242424;
+}
+a:hover {
+  font-style: italic;
+}
+a:active {
+  color: lightgray;
+}
+
+/* --- Contact Form --- */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  margin-bottom: 20px;
+  width: 100%;
+  opacity: 0.7;
+}
+
+form textarea {
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+/*--- Groups & Items (Mobile first) ---*/
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.about-images {
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* --- Groups & Items (Tablet) ---*/
+@media all and (min-width: 600px) {
+  header {
+    height: 240px;
+  }
+
+  .name {
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  nav {
+    font-size: 24px;
+  }
+
+  section {
+    font-size: 18px;
+  }
+
+  .projects p {
+    font-size: 14px;
+  }
+
+  a:link {
+    font-size: 18px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 18px;
+  }
+
+  .contact-logo {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+  }
+}
+
+/* --- Groups & Items (Desktop) ---*/
+@media all and (min-width: 1080px) {
+  .group {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .item {
+    padding: 10px;
+  }
+
+  header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name {
+    font-size: 48px;
+    margin: auto;
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 24px;
+    margin: auto;
+  }
+
+  .nav {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  nav ul li a {
+    font-size: 24px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  #projects h3 {
+    font-size: 26px;
+  }
+
+  #intro p {
+    font-size: 18px;
+  }
+
+  .contact-logo {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+  }
+}
