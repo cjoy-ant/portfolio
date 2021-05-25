@@ -38,10 +38,9 @@ div.bg-yellow {
 }
 
 footer {
-  color: whitesmoke;
+  color: #242424;
   text-align: center;
-  font-weight: bold;
-  background-color: #59959a;
+  background-color: #6ba4a9;
   height: 30px;
   margin: auto;
   padding-top: 10px;
@@ -57,7 +56,7 @@ hr {
 header {
   height: 255px;
   text-align: center;
-  background-color: #59959a; /* --- 6ba4a9 ---*/
+  background-color: #6ba4a9; /* --- 59959a ---*/
 }
 
 .name {
@@ -69,12 +68,19 @@ header {
   padding: 40px 0px 15px 0px;
 }
 
+@media all and (max-width: 380px) {
+  .name {
+    margin: 0px 30px 0px 30px;
+  }
+}
+
 .title {
   color: whitesmoke;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2.5px;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 /* ---Navigation --- */
@@ -301,6 +307,7 @@ form textarea {
   .title {
     font-size: 24px;
     margin: auto;
+    padding-bottom: 0px;
   }
 
   .nav {
