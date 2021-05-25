@@ -38,7 +38,7 @@ div.bg-yellow {
 }
 
 footer {
-  color: whitesmoke;
+  color: white;
   text-align: center;
   background-color: #6ba4a9;
   height: 30px;
@@ -69,7 +69,7 @@ header {
 }
 
 .title {
-  color: whitesmoke;
+  color: white;
   font-size: 20px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
