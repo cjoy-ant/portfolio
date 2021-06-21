@@ -186,18 +186,24 @@ section h2 {
   text-transform: uppercase;
 }
 
+.bold {
+  font-style: bold;
+}
+
 /* --- Links --- */
 a:link {
   color: #242424;
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
+  transition: 0.5s;
 }
 a:visited {
   color: #242424;
 }
 a:hover {
   font-style: italic;
+  color: #5a5a5a;
 }
 a:active {
   color: lightgray;
